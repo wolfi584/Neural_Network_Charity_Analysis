@@ -30,11 +30,11 @@ Name: APPLICATION_TYPE, dtype: int64
 - Attempts to increase model performance: Adjusting the amount of epochs would alter the results.
 
 ## Summary
-The most important question to ask post analysis is - is less than 72% accuracy acceptable concerning the prediction of successful applicants for alphabet soup? If so, this would mean there is a possibility that Alphabet Soup would annualy waste almost 30% of their funding on failed projects. If I were alphabet soup, I would find 72.6% to be unnacceptable. 
+The most important question to ask post analysis is - is less than 72.6% accuracy acceptable concerning the prediction of successful applicants for Alphabet Soup? If so, this would mean there is a possibility that Alphabet Soup would annualy waste almost 30% of their funding on failed projects. If I were Alphabet Soup, I would find 72.6% to be unnacceptable. 
 
-Another import question to ask is - what does the variable 'Is_Successful' truly mean? How does Alphabet categorize a charity as being successful? Are there both quantitave and qualitative measures thate are being used to answer this question? If a charity comes very close to meeting their annual goals but barely misses them, would that make them a 'Not_Successful' variable?
+Another import question to ask is - what does the variable 'Is_Successful' truly mean? How does Alphabet Soup categorize a charity as being successful? Are there both quantitave and qualitative measures being used to answer this question? If a charity comes very close to meeting their annual goals but barely misses, would that make them a 'Not_Successful' variable?
 
-My point of asking all these questions is that using a binary model does not allow the answering of all these important questions. I think that using a model with multiple linear regressions will allow a more thorough analysis to answer these questions.
+My point of asking all these questions is that using a binary model does not allow the answering of all these essential queries. I believe that using a model with multiple linear regressions will allow a more thorough and accurate analysis.
 
 
 
