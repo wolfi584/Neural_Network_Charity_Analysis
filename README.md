@@ -9,8 +9,8 @@ The purpose of the analysis is to develop a binary classifier that will forecast
 ## Results
 
 ### Data Preprocessing
-- Target variable(s): Is_Successful, 1
-- Feature variable(s): Application_Type, Affiliation_CompanySponsored, Income_Amt, Special_Considerations_N, Special_Considerations_Y
+- Target variable(s): "IS_SUSSESSFUL"
+- Feature variable(s): "APPLICATION_TYPE", "AFFILIATION_COMPANYSPONSORED", "INCOME_AMT", "SPECIAL_CONSIDERATIONS_N", "SPECIAL_CONSIDERATIONS_Y"
 - Removable variable(s): "EIN", and "NAME"
 
 
@@ -23,7 +23,7 @@ The purpose of the analysis is to develop a binary classifier that will forecast
 ## Summary
 The most important question to ask post analysis is - is less than 72.7% accuracy acceptable concerning the prediction of successful applicants for Alphabet Soup? If so, this would mean there is a possibility that Alphabet Soup would annualy waste almost 27.3% of their funding on failed projects. If I were Alphabet Soup, I would find 72.7% to be unnacceptable. 
 
-Another import question to ask is - what does the variable 'Is_Successful' truly mean? How does Alphabet Soup categorize a charity as being successful? Are there both quantitave and qualitative measures being used to answer this question? If a charity comes very close to meeting their annual goals but barely misses, would that make them a 'Not_Successful' variable?
+Another import question to ask is - what does the variable "IS_SUCCESSFUL" truly mean? How does Alphabet Soup categorize a charity as being successful? Are there both quantitave and qualitative measures being used to answer this question? If a charity comes very close to meeting their annual goals but barely misses, would that make them a "NOT_SUCCESSFUL" variable?
 
 My point of asking all these questions is that using a binary model does not allow the answering of all these essential queries. I believe that using a model with multiple linear regressions will allow a more thorough and accurate analysis.
 
